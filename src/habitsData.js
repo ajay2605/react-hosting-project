@@ -2,52 +2,52 @@
 const habitsData = {
   habits: [
     {
-      title: "Exercise Daily",
-      identity: "Becoming a healthy Person",
+      title: "Morning Stretching",
+      identity: "I am a type of person that never misses tai chi exercises",
       type: "good",
       makeItObvious: {
-        implementationStrategy: "Set out workout clothes the night before.",
-        habitStacking: "Do 10 push-ups after brushing teeth in the morning.",
+        implementationStrategy: "I will do tai chi stretches at 6 AM, in my bedroom",
+        habitStacking: "After I take a squat, I will start tai chi",
         visualCues: "",
         environmentDesign: "",
       },
       makeItAttractive: {
         temptationBundling: "",
-        reframingYourMind: "View exercise as 'me time' rather than a chore.",
+        reframingYourMind: "Stretching makes me happy and energized.",
       },
       makeItEasy: {
-        reducingFriction: "Prep gym bag ahead of time.",
+        reducingFriction: "When you come out the washroom, start swinging your hands",
         twoMinuteRule: "Start with just 2 minutes of exercise.",
       },
       makeItSatisfying: {
         trackingProgress: "Use a fitness app to track workouts.",
-        otherRewarding:
-          "",
+        otherRewarding: "",
       },
     },
     {
-      title: "Watching TV All Day",
-      identity: "Being Lazy",
+      title: "Smoking",
+      identity: "I am a Non-Smoker",
       type: "bad",
       makeItObvious: {
-        implementationStrategy: "Keep the TV remote next to you at all times.",
-        habitStacking: "Sit on the couch immediately after waking up.",
+        implementationStrategy: "Avoid Situations where you need to smoke.",
+        habitStacking: "Intentionally practise taking cigarette, putting in mouth and throwing it away in the dustbin.",
         visualCues: "",
         environmentDesign: "",
       },
       makeItAttractive: {
         temptationBundling: "",
-        reframingYourMind: "Just one more episode won't hurt.",
+        reframingYourMind: "Smoking makes me unhealthy, unhappy and guilty",
       },
       makeItEasy: {
-        reducingFriction: "Don't bother with chores or exercise.",
-        twoMinuteRule: "Watch just one episode, which turns into a binge.",
+        reducingFriction: "",
+        twoMinuteRule: "Delay smoking for just 2 minutes, which may help reduce the craving.",
       },
       makeItSatisfying: {
-        trackingProgress: "See how many episodes you've watched.",
-        otherRewarding: ".",
+        trackingProgress: "",
+        otherRewarding: "",
       },
     },
+
   ],
 };
 

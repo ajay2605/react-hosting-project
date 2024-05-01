@@ -11,20 +11,20 @@ const App = () => {
             <h2>{habit.title} -- {habit.identity}</h2>
             <div>
               <h3>Cue</h3>
-              <p>{habit.makeItObvious.implementationStrategy}</p>
-              <p>{habit.makeItObvious.habitStacking}</p>
+              <p><strong>Implementation Strategy</strong> -- {habit.makeItObvious.implementationStrategy}</p>
+              <p><strong>Habit Stacking</strong> -- {habit.makeItObvious.habitStacking}</p>
             </div>
             <div>
               <h3>Craving</h3>
-              <p>{habit.makeItAttractive.reframingYourMind}</p>
+              <p><strong>Reframe your Mind </strong> -- {habit.makeItAttractive.reframingYourMind}</p>
             </div>
             <div>
               <h3>Response</h3>
-              <p>{habit.makeItEasy.twoMinuteRule}</p>
+              <p><strong> Small Version</strong> -- {habit.makeItEasy.twoMinuteRule}</p>
             </div>
             <div>
               <h3>Reward</h3>
-              <p>{habit.makeItSatisfying.trackingProgress}</p>
+              <p><strong> Tracking </strong> -- {habit.makeItSatisfying.trackingProgress}</p>
             </div>
           </div>
        
